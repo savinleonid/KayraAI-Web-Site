@@ -1,0 +1,48 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+      :root {
+        --color-kayra-dark: #1b445c;
+        --color-kayra-darker: #4798b1;
+        --color-kayra-primary: #91e3da;
+        --color-kayra-light: #daf0f4;
+      }
+    }
+
+    .bg-kayra-dark {
+      background-color: var(--color-kayra-dark);
+    }
+
+    .bg-kayra-darker {
+      background-color: var(--color-kayra-darker);
+    }
+
+    .text-kayra-dark {
+      color: var(--color-kayra-dark);
+    }
+
+    .text-kayra-primary {
+      color: var(--color-kayra-primary);
+    }
+
+    .bg-kayra-primary {
+      background-color: var(--color-kayra-primary);
+    }
+
+    .border-kayra-primary {
+      border-color: var(--color-kayra-primary);
+    }
+
+    .hover\:bg-kayra-primary:hover {
+      background-color: var(--color-kayra-primary);
+    }
+
+    .hover\:text-kayra-primary:hover {
+      color: var(--color-kayra-primary);
+    }
+
+    .bg-gradient-radial {
+      background: radial-gradient(circle, var(--color-kayra-darker) 0%, var(--color-kayra-dark) 100%);
+    }
